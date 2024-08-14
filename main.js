@@ -1,8 +1,10 @@
 import './style.css';
+// import { timeline } from './assets/tLine.js';
 // import { setupCounter } from './counter.js'
-let date = 0;
 
-
+// const theMap = document.getElementById("app");
+// theMap.innerHTML = timeline;
+// console.log("root", theMap.firstChild)
 
 // the svg layers
 const wow1 = document.getElementById("_x38_0");
@@ -30,4 +32,3 @@ document.body.appendChild(slider);
 
 
 console.log("slider", slider)
-console.log("wow", wow);
