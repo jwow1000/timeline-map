@@ -1,3 +1,24 @@
 .logo {
   width: 80vw;
 }
+
+body {
+  position: relative;
+  overflow: scroll;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+#ghost-scroll {
+  height: 5000px;
+  z-index: -1;
+  overflow: scroll;
+}
+
+#scroll-child {
+}
